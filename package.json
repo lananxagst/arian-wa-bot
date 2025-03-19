@@ -10,7 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "puppeteer": "^21.3.8",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.23.0"
+  },
+  "puppeteer": {
+    "args": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
   }
 }

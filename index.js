@@ -75,13 +75,13 @@ client.on("message", async (msg) => {
 
 const { exec } = require("child_process");
 
-console.log("🔍 Checking Chrome path...");
-exec("which google-chrome", (err, stdout, stderr) => {
-  if (err) {
-    console.error("❌ Chrome not found!", err);
-    return;
-  }
-  console.log("✅ Chrome found at:", stdout);
-});
+// console.log("🔍 Checking Chrome path...");
+// exec("which google-chrome", (err, stdout, stderr) => {
+//   if (err) {
+//     console.error("❌ Chrome not found!", err);
+//     return;
+//   }
+//   console.log("✅ Chrome found at:", stdout);
+// });
 
 client.initialize();
